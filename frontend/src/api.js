@@ -1,4 +1,5 @@
-const BASE = 'http://192.168.20.148:8000'
+const BASE = 'http://127.0.0.1:8000'
+{/*'http://192.168.20.148:8000'*/}
 
 export async function createRoom(authorName) {
   const res = await fetch(`${BASE}/api/rooms/`, {
