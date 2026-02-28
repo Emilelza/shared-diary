@@ -44,8 +44,8 @@ const handleCreate = async () => {
     <div className="min-h-screen bg-amber-50 flex items-center justify-center p-4">
       <div className="bg-white rounded-2xl shadow-lg p-8 w-full max-w-sm border border-amber-100">
         <div className="text-4xl mb-4 text-center">📔</div>
-        <h1 className="text-2xl font-bold text-amber-900 text-center mb-2">Shared Diary</h1>
-        <p className="text-amber-600 text-center text-sm mb-6 italic">A private space for two</p>
+        <h1 className="text-2xl font-bold text-amber-900 text-center mb-2">Reverie</h1>
+        <p className="text-amber-600 text-center text-sm mb-6 italic">Feel close, from far away 🌸</p>
         <label className="text-sm text-amber-800 font-medium">Your name</label>
         <input
           value={name}

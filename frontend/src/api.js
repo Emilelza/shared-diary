@@ -1,7 +1,7 @@
-const BASE = import.meta.env.VITE_API_URL
+const BASE = 'http://192.168.20.148:8000'
 
 export async function createRoom(authorName) {
-  const res = await fetch('http://192.168.20.148:8000/api/rooms/', {
+  const res = await fetch(`${BASE}/api/rooms/`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ author_name: authorName })
